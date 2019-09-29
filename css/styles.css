@@ -48,7 +48,7 @@ body {
     text-align: center;
 }
 
-#what-we-do{
+#what-we-do div {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -77,12 +77,25 @@ body {
     text-align: center;
 }
 
-input, textarea, button {
+input, textarea {
     width: 100%;
     padding-bottom: 10px;
     background: transparent;
     border: 1px solid white;
     margin: 10px;
+}
+
+.text-hidden {
+    display: none;
+}
+
+.text-showing {
+    display: block;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
 }
 
 #input {
