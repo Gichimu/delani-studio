@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
-    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
@@ -54,11 +55,13 @@
             </div>
         </div>
         <div class="row" id="services">
+
             
             <div class="col-md-1">
     
             </div>
             <div class="col-md-10 text-center align-items-center">
+
                 <h2>SERVICES</h2>
                 <P>Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</P>
                 <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
@@ -75,9 +78,10 @@
                 <div class="col-md-4">
                     
                     
-                        <div ><img id="icon1" src="assets/services_icons/design_icon.png">DESIGN</div>
+                        <img id="icon1" src="assets/services_icons/design_icon.png">
                         <p class="text-center text-hidden" id="desc1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                        Throughout your project, our designers create and implement visual design and workflows, solicit user 
+                        feedback and work with you to make sure what gets built is what is needed.</p>
                     
                     
                 </div>
@@ -97,14 +101,38 @@
                 </div>
         </div>
         <div class="row" id="portfolio">
-            <img src="assets/portfolio/work1.jpg">
-            <img src="assets/portfolio/work2.jpg">
-            <img src="assets/portfolio/work3.jpg">
-            <img src="assets/portfolio/work4.jpg">
-            <img src="assets/portfolio/work5.jpg">
-            <img src="assets/portfolio/work6.jpg">
-            <img src="assets/portfolio/work7.jpg">
-            <img src="assets/portfolio/work8.jpg">
+            <div class="portfolio">
+                <img onmouseover="" id="img1" src="assets/portfolio/work1.jpg" alt="project1">
+                <div class=""><h5 class="text-hidden project1text" id="project1text" >Project1</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img2" src="assets/portfolio/work2.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project2text">Project2</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img3" src="assets/portfolio/work3.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project3text">Project3</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img4" src="assets/portfolio/work4.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project4text">Project4</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img5" src="assets/portfolio/work5.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project5text">Project5</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img6" src="assets/portfolio/work6.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project6text">Project6</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img7" src="assets/portfolio/work7.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project7text">Project7</h5></div>
+            </div>
+            <div class="portfolio">
+            <img id="img8" src="assets/portfolio/work8.jpg">
+            <div class=""><h5 class="text-hidden project1text" id="project8text">Project8</h5></div>
+            </div>
         </div>
         <div class="row" id="contact">
             <div class="col-md-2">
@@ -165,7 +193,5 @@
             </div>
         </div>
     </div>
-    <script src="js/jquery-3.4.1.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <scripts src="js/scripts.js"></scripts>
 </body>
 </html>
